@@ -1,4 +1,3 @@
-const apikey="OlpjalVUSmRNbklHRVpHUkQ"
 const express=require('express')
 const axios = require('axios');
 const app=express()
@@ -14,7 +13,7 @@ const config = {
   method: 'post',
   url: 'https://sms.arkesel.com/api/v2/sms/send',
   headers: {
-   'api-key': 'OlpjalVUSmRNbklHRVpHUkQ='
+   'api-key': ''
   },
   data : data
 };
